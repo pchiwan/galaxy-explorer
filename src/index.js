@@ -1,11 +1,9 @@
 import express from 'express';
+import router from './router';
 
 const app = express();
 
-app.get('/', ((req, res) => {
-  res.status(200); // HTTP OK
-  res.send('To infinity and beyond!');
-}));
+app.use('/api', router);
 
 app.listen(process.env.PORT, () => {
   console.log(`Listening on port ${process.env.PORT}`);
