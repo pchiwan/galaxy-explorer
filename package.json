@@ -1,0 +1,23 @@
+{
+  "name": "galaxy-explorer",
+  "version": "1.0.0",
+  "description": "A galaxy exploration API",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir lib --source-maps"
+  },
+  "author": "pchiwan@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
