@@ -4,7 +4,9 @@
   "description": "A galaxy exploration API",
   "main": "index.js",
   "scripts": {
-    "start": "babel src --out-dir lib --source-maps"
+    "build": "babel src -d lib",
+    "serve": "PORT=4000 nodemon ./lib/index.js",
+    "start": "npm run build && concurrently 'npm run serve' 'npm run build -- -w -s'"
   },
   "author": "pchiwan@gmail.com",
   "license": "ISC",
@@ -13,7 +15,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.14.7"
   },
   "babel": {
     "presets": [
