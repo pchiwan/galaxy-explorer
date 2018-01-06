@@ -22,6 +22,7 @@ router.get('/locate/:planetName', ((req, res) => {
   res.status(HTTP_OK);
   res.send(locatePlanet(req.params.planetName));
 }));
+
 router.get('/gasgiants', ((req, res) => {
   res.status(HTTP_OK);
   res.send(getGasGiants());

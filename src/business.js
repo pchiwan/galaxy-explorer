@@ -55,7 +55,6 @@ export function getClusterSummary(clusterName) {
     }));
 }
 
-
 export function locatePlanet(planetName) {
     const cluster = traverseGalaxy(planetName);
     return cluster !== null
