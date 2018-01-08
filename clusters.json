@@ -1603,4 +1603,1053 @@
         "radius": "52,103 km"
       }]
     }]
-  }]
+  },
+  {
+    "name": "Apien Crest",
+    "systems": [
+    {
+      "name": "Castellus",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Carborix",
+        "dayLength": "28.8 Earth Hours",
+        "orbitalPeriod": "0.3 Earth Years",
+        "temp": "268 \u00b0C",
+        "radius": "2,579 km"
+      },
+      {
+        "name": "Nios",
+        "dayLength": "29.4 Earth Hours",
+        "orbitalPeriod": "0.7 Earth Years",
+        "temp": "756 \u00b0C",
+        "radius": "2,849 km"
+      },
+      {
+        "name": "Digeris",
+        "dayLength": "37.2 Earth Hours",
+        "orbitalPeriod": "1.6 Earth Years",
+        "temp": "21 \u00b0C",
+        "radius": "4,061 km"
+      },
+      {
+        "name": "Fiax",
+        "dayLength": "68.6 Earth Hours",
+        "orbitalPeriod": "4.4 Earth Years",
+        "temp": "-78 \u00b0C",
+        "radius": "9,735 km"
+      },
+      {
+        "name": "Iritum",
+        "dayLength": "12.8 Earth Hours",
+        "orbitalPeriod": "32.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "53,884 km"
+      }]
+    },
+    {
+      "name": "Gemmae",
+      "stellarMass": "N\/A",
+      "stellarClass": "BIII",
+      "planets": [
+      {
+        "name": "Pheiros",
+        "dayLength": "110.2 Earth Years",
+        "orbitalPeriod": "479.2 Earth Days",
+        "temp": "496 \u00b0C",
+        "radius": "1,401 km"
+      }]
+    },
+    {
+      "name": "Trebia",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Aventen",
+        "dayLength": "19.1 Earth Hours",
+        "orbitalPeriod": "0.2 Earth Years",
+        "temp": "454 \u00b0C",
+        "radius": "5,488 km"
+      },
+      {
+        "name": "Caelax",
+        "dayLength": "64.5 Earth Hours",
+        "orbitalPeriod": "0.4 Earth Years",
+        "temp": "187 \u00b0C",
+        "radius": "6,349 km"
+      },
+      {
+        "name": "Palaven",
+        "dayLength": "28.3 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "31 \u00b0C",
+        "radius": "8,990 km"
+      },
+      {
+        "name": "Impera",
+        "dayLength": "32.6 Earth Hours",
+        "orbitalPeriod": "3.7 Earth Years",
+        "temp": "223 \u00b0C",
+        "radius": "1,676 km"
+      },
+      {
+        "name": "Essenus",
+        "dayLength": "12.3 Earth Years",
+        "orbitalPeriod": "10.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "73,976 km"
+      },
+      {
+        "name": "Datriux",
+        "dayLength": "31.8 Earth Hours",
+        "orbitalPeriod": "25.7 Earth Years",
+        "temp": "-164 \u00b0C",
+        "radius": "7,183 km"
+      }]
+    }]
+  },
+  {
+    "name": "Krogan DMZ",
+    "systems": [
+    {
+      "name": "Aralakh",
+      "stellarMass": "1.7 Sol Masses",
+      "stellarClass": "F",
+      "planets": [
+      {
+        "name": "Durak",
+        "dayLength": "8.8 Earth Hours",
+        "orbitalPeriod": "0.6 Earth Years",
+        "temp": "348 \u00b0C",
+        "radius": "1,972 km"
+      },
+      {
+        "name": "Kanin",
+        "dayLength": "?",
+        "orbitalPeriod": "1.6 Earth Years",
+        "temp": "155 \u00b0C",
+        "radius": "3,312 km"
+      },
+      {
+        "name": "Kruban",
+        "dayLength": "?",
+        "orbitalPeriod": "4.6 Earth Years",
+        "temp": "728 \u00b0C",
+        "radius": "5,443 km"
+      },
+      {
+        "name": "Tuchanka",
+        "dayLength": "21.4 Earth Hours",
+        "orbitalPeriod": "16.7 Earth Years",
+        "temp": "72 \u00b0C",
+        "radius": "8,293 km"
+      },
+      {
+        "name": "Ruam",
+        "dayLength": "13.8 Earth Hours",
+        "orbitalPeriod": "28.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "67,154 km"
+      },
+      {
+        "name": "Durak",
+        "dayLength": "8.8 Earth Hours",
+        "orbitalPeriod": "0.6 Earth Years",
+        "temp": "348 \u00b0C",
+        "radius": "1,972 km"
+      },
+      {
+        "name": "Vaul",
+        "dayLength": "12.1 Earth Hours",
+        "orbitalPeriod": "57.8 Earth Years",
+        "temp": "N\/A",
+        "radius": "73,994 km"
+      }]
+    },
+    {
+      "name": "Dranek",
+      "stellarMass": "0.3 Sol Masses",
+      "stellarClass": "M",
+      "planets": [
+      {
+        "name": "Kelim",
+        "dayLength": "28.3 Earth Hours",
+        "orbitalPeriod": "0.2 Earth Years",
+        "temp": "42 \u00b0C",
+        "radius": "5,580 km"
+      },
+      {
+        "name": "Dor",
+        "dayLength": "18.4 Earth Hours",
+        "orbitalPeriod": "0.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "25,588 km"
+      },
+      {
+        "name": "Sazgoth",
+        "dayLength": "27.1 Earth Hours",
+        "orbitalPeriod": "0.8 Earth Years",
+        "temp": "-99 \u00b0C",
+        "radius": "3,349 km"
+      },
+      {
+        "name": "Rothla",
+        "dayLength": "64.2 Earth Hours",
+        "orbitalPeriod": "2.3 Earth Years",
+        "temp": "-153 \u00b0C",
+        "radius": "4,263 km"
+      }]
+    },
+    {
+      "name": "Nith",
+      "stellarMass": "14.8 Sol Masses",
+      "stellarClass": "B",
+      "planets": [
+      {
+        "name": "Mantun",
+        "dayLength": "?",
+        "orbitalPeriod": "112.1 Earth Years",
+        "temp": "641 \u00b0C",
+        "radius": "2,150 km"
+      },
+      {
+        "name": "Tula",
+        "dayLength": "59.7 Earth Hours",
+        "orbitalPeriod": "293.9 Earth Years",
+        "temp": "1,036 \u00b0C",
+        "radius": "5,204 km"
+      },
+      {
+        "name": "Vard",
+        "dayLength": "18 Earth Hours",
+        "orbitalPeriod": "709.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "36,670 km"
+      }]
+    }]
+  },
+  {
+    "name": "Annos Basin",
+    "systems": [
+    {
+      "name": "Pranas",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Saradril",
+        "dayLength": "22.2 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "325 \u00b0C",
+        "radius": "5,243 km"
+      },
+      {
+        "name": "Sur'Kesh",
+        "dayLength": "21.5 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "25 \u00b0C",
+        "radius": "6,709 km"
+      },
+      {
+        "name": "Dragel",
+        "dayLength": "60.2 Earth Hours",
+        "orbitalPeriod": "2.5 Earth Years",
+        "temp": "-37 \u00b0C",
+        "radius": "1,528 km"
+      },
+      {
+        "name": "Halegeuse",
+        "dayLength": "16.8 Earth Hours",
+        "orbitalPeriod": "6.8 Earth Years",
+        "temp": "N\/A",
+        "radius": "54,743 km"
+      },
+      {
+        "name": "Paeto",
+        "dayLength": "29.3 Earth Hours",
+        "orbitalPeriod": "19.8 Earth Years",
+        "temp": "-154 \u00b0C",
+        "radius": "1,681 km"
+      }]
+    }]
+  },
+  {
+    "name": "Ismar Frontier",
+    "systems": [
+    {
+      "name": "Aquila",
+      "stellarMass": "1.0 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Lepini",
+        "dayLength": "9.2 Earth Hours",
+        "orbitalPeriod": "0.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "56,666 km"
+      },
+      {
+        "name": "Vecchio",
+        "dayLength": "39.1 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "58 \u00b0C",
+        "radius": "6,443 km"
+      },
+      {
+        "name": "Volturno",
+        "dayLength": "26.8 Earth Hours",
+        "orbitalPeriod": "3.0 Earth Years",
+        "temp": "-10 \u00b0C",
+        "radius": "11,177 km"
+      },
+      {
+        "name": "Metaponto",
+        "dayLength": "12.1 Earth Hours",
+        "orbitalPeriod": "8.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "70,520 km"
+      },
+      {
+        "name": "Pollino",
+        "dayLength": "16.5 Earth Hours",
+        "orbitalPeriod": "22.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "37,052 km"
+      }]
+    },
+    {
+      "name": "Elysta",
+      "stellarMass": "0.76 Sol Masses",
+      "stellarClass": "K",
+      "planets": [
+      {
+        "name": "Saleas",
+        "dayLength": "0.3 Earth Years",
+        "orbitalPeriod": "0.3 Earth Years",
+        "temp": "138 \u00b0C",
+        "radius": "3,485 km"
+      },
+      {
+        "name": "Zeona",
+        "dayLength": "49.6 Earth Hours",
+        "orbitalPeriod": "0.6 Earth Years",
+        "temp": "68 \u00b0C",
+        "radius": "4,734 km"
+      },
+      {
+        "name": "Odasst",
+        "dayLength": "28.3 Earth Hours",
+        "orbitalPeriod": "1.1 Earth Years",
+        "temp": "20 \u00b0C",
+        "radius": "6,882 km"
+      },
+      {
+        "name": "Hesano",
+        "dayLength": "13.1 Earth Hours",
+        "orbitalPeriod": "2.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "34,035 km"
+      },
+      {
+        "name": "Melile",
+        "dayLength": "8.6 Earth Hours",
+        "orbitalPeriod": "6.1 Earth Years",
+        "temp": "N\/A",
+        "radius": "28,684 km"
+      }]
+    },
+    {
+      "name": "Faia",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Imaen",
+        "dayLength": "62.1 Earth Hours",
+        "orbitalPeriod": "0.8 Earth Years",
+        "temp": "108 \u00b0C",
+        "radius": "2,370 km"
+      },
+      {
+        "name": "Zorya",
+        "dayLength": "28.4 Earth Hours",
+        "orbitalPeriod": "2.4 Earth Years",
+        "temp": "33 \u00b0C",
+        "radius": "6,247 km"
+      },
+      {
+        "name": "Viantel",
+        "dayLength": "28.4 Earth Hours",
+        "orbitalPeriod": "5.2 Earth Years",
+        "temp": "-150 \u00b0C",
+        "radius": "1,381 km"
+      },
+      {
+        "name": "Hito",
+        "dayLength": "14.3 Earth Hours",
+        "orbitalPeriod": "15.8 Earth Years",
+        "temp": "N\/A",
+        "radius": "24,984 km"
+      }]
+    }]
+  },
+  {
+    "name": "Minos Wasteland",
+    "systems": [
+    {
+      "name": "Arrae",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Erros",
+        "dayLength": "37.6 Earth Hours",
+        "orbitalPeriod": "0.7 Earth Years",
+        "temp": "127 \u00b0C",
+        "radius": "7.095 km"
+      },
+      {
+        "name": "Gellix",
+        "dayLength": "19.4 Earth Hours",
+        "orbitalPeriod": "2.0 Earth Years",
+        "temp": "4 \u00b0C",
+        "radius": "3,842 km"
+      },
+      {
+        "name": "Antinax",
+        "dayLength": "34.2 Earth Hours",
+        "orbitalPeriod": "5.3 Earth Years",
+        "temp": "214 \u00b0C",
+        "radius": "9,584 km"
+      },
+      {
+        "name": "Nirrus",
+        "dayLength": "12.6 Earth Hours",
+        "orbitalPeriod": "15.5 Earth Years",
+        "temp": "N\/A",
+        "radius": "56,378 km"
+      }]
+    },
+    {
+      "name": "Caestus",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Invictus",
+        "dayLength": "31.6 Earth Hours",
+        "orbitalPeriod": "1.5 Earth Years",
+        "temp": "30 \u00b0C",
+        "radius": "7,260 km"
+      },
+      {
+        "name": "Temerarus",
+        "dayLength": "66.4 Earth Hours",
+        "orbitalPeriod": "6.3 Earth Years",
+        "temp": "131 \u00b0C",
+        "radius": "3,321 km"
+      }]
+    },
+    {
+      "name": "Fortis",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Vir",
+        "dayLength": "44.4 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "778 \u00b0C",
+        "radius": "8,162 km"
+      },
+      {
+        "name": "Pietas",
+        "dayLength": "26.5 Earth Hours",
+        "orbitalPeriod": "2.4 Earth Years",
+        "temp": "21 \u00b0C",
+        "radius": "5,430 km"
+      },
+      {
+        "name": "Aequitas",
+        "dayLength": "51.6 Earth Hours",
+        "orbitalPeriod": "8.0 Earth Years",
+        "temp": "-85 \u00b0C",
+        "radius": "7,437 km"
+      }]
+    }]
+  },  
+  {
+    "name": "Vallhallan Threshold",
+    "systems": [
+    {
+      "name": "Micah",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Elohi",
+        "dayLength": "11.8 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "N\/A",
+        "radius": "38,119 km"
+      },
+      {
+        "name": "Dumah",
+        "dayLength": "10.0 Earth Hours",
+        "orbitalPeriod": "2.0 Earth Years",
+        "temp": "N\/A",
+        "radius": "59,152 km"
+      },
+      {
+        "name": "Farlas",
+        "dayLength": "24.1 Earth Hours",
+        "orbitalPeriod": "8.3 Earth Years",
+        "temp": "-116 \u00b0C",
+        "radius": "540 km"
+      },
+      {
+        "name": "Kakabel",
+        "dayLength": "68.3 Earth Hours",
+        "orbitalPeriod": "8.6 Earth Years",
+        "temp": "-118 \u00b0C",
+        "radius": "470 km"
+      },
+      {
+        "name": "Israfil",
+        "dayLength": "68.6 Earth Hours",
+        "orbitalPeriod": "8.9 Earth Years",
+        "temp": "-100 \u00b0C",
+        "radius": "905 km"
+      }]
+    },
+    {
+      "name": "Paz",
+      "stellarMass": "1.72 Sol Masses",
+      "stellarClass": "A",
+      "planets": [
+      {
+        "name": "Garvug",
+        "dayLength": "27.0 Earth Hours",
+        "orbitalPeriod": "6.1 Earth Years",
+        "temp": "-30 \u00b0C",
+        "radius": "6,200 km"
+      }]
+    },
+    {
+      "name": "Raheel-Leyya",
+      "stellarMass": "N\/A",
+      "stellarClass": "B / B",
+      "planets": []
+    }]
+  },
+  {
+    "name": "Rosetta Nebula",
+    "systems": [
+    {
+      "name": "Alpha Draconis",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "2175 Aeia",
+        "dayLength": "31.6 Earth Hours",
+        "orbitalPeriod": "7.3 Earth Years",
+        "temp": "16 \u00b0C",
+        "radius": "6,521 km"
+      },
+      {
+        "name": "2175 AR2",
+        "dayLength": "14.0 Earth Hours",
+        "orbitalPeriod": "28.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "62,775 km"
+      }
+      ]
+    },
+    {
+      "name": "Enoch",
+      "stellarMass": "0.97 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Laban",
+        "dayLength": "24.3 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "384 \u00b0C",
+        "radius": "7,658 km"
+      },
+      {
+        "name": "Mizraim",
+        "dayLength": "10.9 Earth Hours",
+        "orbitalPeriod": "1.3 Earth Years",
+        "temp": "N\/A",
+        "radius": "17,932 km"
+      },
+      {
+        "name": "Joab",
+        "dayLength": "25.6 Earth Hours",
+        "orbitalPeriod": "3.5 Earth Years",
+        "temp": "14 \u00b0C",
+        "radius": "6,709 km"
+      },
+      {
+        "name": "Goliath",
+        "dayLength": "14.1 Earth Hours",
+        "orbitalPeriod": "10.5 Earth Years",
+        "temp": "N\/A",
+        "radius": "74,985 km"
+      }]
+    },
+    {
+      "name": "Phi Clio",
+      "stellarMass": "0.85 S0l Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Cyllene",
+        "dayLength": "12.8 Earth Hours",
+        "orbitalPeriod": "0.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "38,920 km"
+      },
+      {
+        "name": "Parnassus",
+        "dayLength": "50.2 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "158 \u00b0C",
+        "radius": "5,850 km"
+      }]
+    }]
+  },
+  {
+    "name": "Artemis Tau",
+    "systems": [
+    {
+      "name": "Athens",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Salamis",
+        "dayLength": "58.6 Earth Hours",
+        "orbitalPeriod": "0.4 Earth Years",
+        "temp": "520 \u00b0C",
+        "radius": "6,894 km"
+      },
+      {
+        "name": "Proteus",
+        "dayLength": "51.4 Earth Hours",
+        "orbitalPeriod": "4.9 Earth Years",
+        "temp": "34 \u00b0C",
+        "radius": "10,210 km"
+      },
+      {
+        "name": "Nausicaa",
+        "dayLength": "14.0 Earth Hours",
+        "orbitalPeriod": "57.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "59,729 km"
+      },
+      {
+        "name": "Circe",
+        "dayLength": "10.9 Earth Hours",
+        "orbitalPeriod": "141.9 Earth Years",
+        "temp": "N\/A",
+        "radius": "22,479 km"
+      },
+      {
+        "name": "Pharos",
+        "dayLength": "47.4 Earth Hours",
+        "orbitalPeriod": "275.4 Earth Years",
+        "temp": "-176 \u00b0C",
+        "radius": "7,623 km"
+      }]
+    },
+    {
+      "name": "Knossos",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Phaistos",
+        "dayLength": "57.2 Earth Hours",
+        "orbitalPeriod": "0.3 Earth Years",
+        "temp": "551 \u00b0C",
+        "radius": "4,238 km"
+      },
+      {
+        "name": "Therum",
+        "dayLength": "28.3 Earth Hours",
+        "orbitalPeriod": "6.4 Earth Years",
+        "temp": "59 \u00b0C",
+        "radius": "6,724 km"
+      },
+      {
+        "name": "Zakros",
+        "dayLength": "45.6 Earth Hours",
+        "orbitalPeriod": "33.9 Earth Years",
+        "temp": "-71 \u00b0C",
+        "radius": "4,572 km"
+      },
+      {
+        "name": "Armeni",
+        "dayLength": "57.8 Earth Hours",
+        "orbitalPeriod": "151.3 Earth Years",
+        "temp": "-168 \u00b0C",
+        "radius": "6,077 km"
+      },
+      {
+        "name": "Archanes",
+        "dayLength": "16.2 Earth Hours",
+        "orbitalPeriod": "470.2 Earth Years",
+        "temp": "N\/A",
+        "radius": "14,549 km"
+      }]
+    },
+    {
+      "name": "Macedon",
+      "stellarMass": "0.296 S0l Masses",
+      "stellarClass": "M3",
+      "planets": [
+      {
+        "name": "Sharjila",
+        "dayLength": "40.6 Earth Hours",
+        "orbitalPeriod": "1.0 Earth Years",
+        "temp": "25 \u00b0C",
+        "radius": "5,693 km"
+      },
+      {
+        "name": "Porolan",
+        "dayLength": "45.4 Earth Hours",
+        "orbitalPeriod": "21.0 Earth Years",
+        "temp": "-197 \u00b0C",
+        "radius": "9,749 km"
+      },
+      {
+        "name": "Patavig",
+        "dayLength": "30.4 Earth Hours",
+        "orbitalPeriod": "69.8 Earth Years",
+        "temp": "-130 \u00b0C",
+        "radius": "10,529 km"
+      },
+      {
+        "name": "Fargeluse",
+        "dayLength": "19.1 Earth Hours",
+        "orbitalPeriod": "111.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "40,394 km"
+      }]
+    },
+    {
+      "name": "Sparta",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Tremanre",
+        "dayLength": "1.0 Earth Years",
+        "orbitalPeriod": "1.0 Earth Years",
+        "temp": "55 \u00b0C",
+        "radius": "1,528 km"
+      },
+      {
+        "name": "Edolus",
+        "dayLength": "50.3 Earth Hours",
+        "orbitalPeriod": "2.7 Earth Years",
+        "temp": "-1 \u00b0C",
+        "radius": "5,729 km"
+      },
+      {
+        "name": "Altaaya",
+        "dayLength": "47.2 Earth Hours",
+        "orbitalPeriod": "18.1 Earth Years",
+        "temp": "-136 \u00b0C",
+        "radius": "11,190 km"
+      },
+      {
+        "name": "Ontamalca",
+        "dayLength": "17.7 Earth Hours",
+        "orbitalPeriod": "39.1 Earth Years",
+        "temp": "N\/A",
+        "radius": "72,492 km"
+      },
+      {
+        "name": "Alsages",
+        "dayLength": "23.3 Earth Hours",
+        "orbitalPeriod": "73.8 Earth Years",
+        "temp": "-193 \u00b0C",
+        "radius": "4,926 km"
+      }]
+    }]
+  },
+  {
+    "name": "Shadow Sea",
+    "systems": [
+    {
+      "name": "Iera",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Venture",
+        "dayLength": "26.1 Earth Hours",
+        "orbitalPeriod": "0.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "10,659 km"
+      },
+      {
+        "name": "Prospect",
+        "dayLength": "18.1 Earth Hours",
+        "orbitalPeriod": "1.3 Earth Years",
+        "temp": "N\/A",
+        "radius": "45,277 km"
+      },
+      {
+        "name": "Horizon",
+        "dayLength": "37.8 Earth Hours",
+        "orbitalPeriod": "3.0 Earth Years",
+        "temp": "13 \u00b0C",
+        "radius": "5,402 km"
+      },
+      {
+        "name": "Watchman",
+        "dayLength": "28.6 Earth Hours",
+        "orbitalPeriod": "8.3 Earth Years",
+        "temp": "-116 \u00b0C",
+        "radius": "5,728 km"
+      }]
+    }]
+  },
+  {
+    "name": "Viper Nebula",
+    "systems": [
+    {
+      "name": "Bahak",
+      "stellarMass": "0.99 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Clogon",
+        "dayLength": "20.8 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "382 \u00b0C",
+        "radius": "2,621 km"
+      },
+      {
+        "name": "Aratoht",
+        "dayLength": "20.0 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "55 \u00b0C",
+        "radius": "4,757 km"
+      },
+      {
+        "name": "Yunaca",
+        "dayLength": "63.5 Earth Hours",
+        "orbitalPeriod": "3.7 Earth Years",
+        "temp": "-67 \u00b0C",
+        "radius": "1,769 km"
+      },
+      {
+        "name": "Urmola",
+        "dayLength": "13.7 Earth Hours",
+        "orbitalPeriod": "8.8 Earth Years",
+        "temp": "N\/A",
+        "radius": "71,610 km"
+      },
+      {
+        "name": "Bastzuda",
+        "dayLength": "13.1 Earth Hours",
+        "orbitalPeriod": "26.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "65,015 km"
+      }]
+    }]
+  },
+  {
+    "name": "Titan Nebula",
+    "systems": [
+    {
+      "name": "Haskins",
+      "stellarMass": "1.7 Sol Masses",
+      "stellarClass": "A",
+      "planets": [
+      {
+        "name": "Capek",
+        "dayLength": "18.7 Earth Hours",
+        "orbitalPeriod": "7.1 Earth Years",
+        "temp": "65 \u00b0C",
+        "radius": "5,899 km"
+      }]
+    }]
+  },
+  {
+    "name": "Far Rim",
+    "systems": [
+    {
+      "name": "Dholen",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "M III",
+      "planets": [
+      {
+        "name": "Gotha",
+        "dayLength": "66.4 Earth Hours",
+        "orbitalPeriod": "1.8 Earth Years",
+        "temp": "590 \u00b0C",
+        "radius": "1,056 km"
+      },
+      {
+        "name": "Charoum",
+        "dayLength": "11.3 Earth Hours",
+        "orbitalPeriod": "4.9 Earth Years",
+        "temp": "N\/A",
+        "radius": "54,532 km"
+      },
+      {
+        "name": "Haestrom",
+        "dayLength": "18.5 Earth Hours",
+        "orbitalPeriod": "15.8 Earth Years",
+        "temp": "44 \u00b0C",
+        "radius": "6,721 km"
+      }]
+    },
+    {
+      "name": "Ma-at",
+      "stellarMass": "1.00 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Ammut",
+        "dayLength": "12.2 Earth Hours",
+        "orbitalPeriod": "1,036.0 Earth Years",
+        "temp": "N\/A",
+        "radius": "92,430 km"
+      }]
+    }]
+  },
+  {
+    "name": "Perseus Veil",
+    "systems": [
+    {
+      "name": "Tikkun",
+      "stellarMass": "0.9 Sol Masses",
+      "stellarClass": "K",
+      "planets": [
+      {
+        "name": "Rannoch",
+        "dayLength": "32.3 Earth Hours",
+        "orbitalPeriod": "0.64 Earth Years",
+        "temp": "48 \u00b0C",
+        "radius": "6,021 km"
+      },
+      {
+        "name": "Uriyah",
+        "dayLength": "23.9 Earth Hours",
+        "orbitalPeriod": "1.3 Earth Years",
+        "temp": "-33 \u00b0C",
+        "radius": "1,440 km"
+      },
+      {
+        "name": "Adas",
+        "dayLength": "18 Earth Hours",
+        "orbitalPeriod": "3.4 Earth Years",
+        "temp": "73 \u00b0C",
+        "radius": "4,145 km"
+      },
+      {
+        "name": "Kaddi",
+        "dayLength": "21 Earth Hours",
+        "orbitalPeriod": "10 Earth Years",
+        "temp": "-93 \u00b0C",
+        "radius": "11,690 km"
+      },
+      {
+        "name": "Haza",
+        "dayLength": "11.6 Earth Hours",
+        "orbitalPeriod": "23 Earth Years",
+        "temp": "N\/A",
+        "radius": "17,918 km"
+      }]
+    }
+    ]
+  },
+  {
+    "name": "Armstrong Nebula",
+    "systems": [
+    {
+      "name": "Gagarin",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": []
+    },
+    {
+      "name": "Grissom",
+      "stellarMass": ">20 Sol Masses",
+      "stellarClass": "O",
+      "planets": []
+    },
+    {
+      "name": "Hong",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": []
+    },
+    {
+      "name": "Tereshkova",
+      "stellarMass": "N\/A",
+      "stellarClass": "M V, M V",
+      "planets": []
+    },
+    {
+      "name": "Vamshi",
+      "stellarMass": "N\/A",
+      "stellarClass": "A4 V 1, M5 III 1",
+      "planets": []
+    }]
+  },
+  {
+    "name": "Aethon Cluster",
+    "systems": []
+  },
+  {
+    "name": "Ninmah Cluster",
+    "systems": []
+  },
+  {
+    "name": "Nubian Expanse",
+    "systems": []
+  },  
+  {
+    "name": "Petra Nebula",
+    "systems": []
+  },
+  {
+    "name": "Omega Nebula",
+    "systems": []
+  },
+  {
+    "name": "Eagle Nebula",
+    "systems": []
+  },
+  {
+    "name": "Pylos Nebula",
+    "systems": []
+  },
+  {
+    "name": "Arcturus Stream",
+    "systems": []
+  },
+  {
+    "name": "Caleston Rift",
+    "systems": []
+  },
+  {
+    "name": "Sigurd's Cradle",
+    "systems": []
+  },
+  {
+    "name": "The Shrike Abyssal",
+    "systems": []
+  }
+]
