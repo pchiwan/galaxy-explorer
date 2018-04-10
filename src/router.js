@@ -13,9 +13,11 @@ export const basePath = (req, res) => {
   res.status(HTTP_OK);
   res.send(`
     <h1>To infinity and beyond!</h1>
-    <p>Check the API docs <a href="./swagger" title="Swagger">here</a></p>
+    <p>Check the API docs <a href="/swagger" title="Swagger">here</a></p>
   `);
 };
+
+router.get('/', basePath);
 
 router.get('/galaxy', (req, res) => {
   res.status(HTTP_OK);

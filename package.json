@@ -12,6 +12,7 @@
   "author": "pchiwan@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "swagger-ui-express": "^3.0.6"
   },
