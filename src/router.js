@@ -8,10 +8,13 @@ const {
 const HTTP_OK = 200
 const router = express.Router();
 
-router.get('/', ((req, res) => {
+export const basePath = (req, res) => {
   res.status(HTTP_OK);
-  res.send('To infinity and beyond!');
-}));
+  res.send(`
+    <h1>To infinity and beyond!</h1>
+    <p>Check the API docs <a href="./swagger" title="Swagger">here</a></p>
+  `);
+};
 
 router.get('/clusters/:clusterName/systems', (req, res) => {
   res.status(HTTP_OK);
