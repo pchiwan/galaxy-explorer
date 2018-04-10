@@ -1,0 +1,137 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "galaxy-explorer",
+    "description": "A (Milky Way) galaxy exploration API"
+  },
+  "basePath": "/api",
+  "schemes": [
+    "http", "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/clusters/{clusterName}/systems": {
+      "get": {        
+        "description": "Get all systems of cluster",
+        "parameters": [
+          {
+            "name": "clusterName",
+            "in": "path",
+            "required": true,
+            "description": "Name of the cluster we want to explore",
+            "type": "string"
+            }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/System"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/locate/{planetName}": {
+      "parameters": [
+        {
+          "name": "planetName",
+          "in": "path",
+          "required": true,
+          "description": "Name of the planet to locate",
+          "type": "string"
+        }
+      ],
+      "get": {        
+        "summary": "Locate a planet in the galaxy",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Planet"
+            }
+          }
+        }
+      }
+    },
+    "/gasgiants": {
+      "parameters": [],
+      "get": {        
+        "summary": "List all gas giants in the galaxy",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Planet"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Cluster": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "systems": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/System"
+          }
+        }
+      }
+    },
+    "System": {      
+      "properties": {
+        "stellarMass": {
+          "type": "string"
+        },
+        "stellarClass": {
+          "type": "string"
+        },
+        "planets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Planet"
+          }
+        }
+      }
+    },
+    "Planet": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "dayLength": {
+          "type": "string"
+        },
+        "orbitalPeriod": {
+          "type": "string"
+        },
+        "temp": {
+          "type": "string"
+        },
+        "radius": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
