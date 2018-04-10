@@ -1,9 +1,10 @@
 import express from 'express';
-const {
+import {
+  getClusters,
   getClusterSummary,
   locatePlanet,
   getGasGiants
-} = require('./business');
+} from './business';
 
 const HTTP_OK = 200
 const router = express.Router();
@@ -15,6 +16,11 @@ export const basePath = (req, res) => {
     <p>Check the API docs <a href="./swagger" title="Swagger">here</a></p>
   `);
 };
+
+router.get('/galaxy', (req, res) => {
+  res.status(HTTP_OK);
+  res.send(getClusters());
+});
 
 router.get('/clusters/:clusterName/systems', (req, res) => {
   res.status(HTTP_OK);

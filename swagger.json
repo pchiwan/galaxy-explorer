@@ -16,8 +16,33 @@
     "application/json"
   ],
   "paths": {
-    "/clusters/{clusterName}/systems": {
-      "get": {        
+    "/galaxy": {      
+      "get": {
+        "tags": [
+          "Clusters"
+        ],
+        "description": "Get the whole galaxy (all clusters)",        
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cluster"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clusters/{clusterName}/systems": {      
+      "get": {
+        "tags": [
+          "Systems"
+        ],
         "description": "Get all systems of cluster",
         "parameters": [
           {
@@ -44,7 +69,7 @@
         }
       }
     },
-    "/locate/{planetName}": {
+    "/locate/{planetName}": {      
       "parameters": [
         {
           "name": "planetName",
@@ -54,7 +79,10 @@
           "type": "string"
         }
       ],
-      "get": {        
+      "get": {
+        "tags": [
+          "Planets"
+        ],
         "summary": "Locate a planet in the galaxy",
         "responses": {
           "200": {
@@ -66,9 +94,12 @@
         }
       }
     },
-    "/gasgiants": {
+    "/gasgiants": {      
       "parameters": [],
-      "get": {        
+      "get": {
+        "tags": [
+          "Planets"
+        ],
         "summary": "List all gas giants in the galaxy",
         "responses": {
           "200": {
