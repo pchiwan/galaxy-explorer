@@ -1,28 +1,26 @@
 {
-  "name": "galaxy-explorer",
-  "version": "1.0.0",
-  "description": "A galaxy exploration API",
-  "main": "index.js",
-  "scripts": {
-    "build": "babel src -d lib",
-    "serve": "PORT=4000 nodemon ./lib/index.js",
-    "start": "npm run build && concurrently 'npm run serve' 'npm run build -- -w -s'"
-  },
-  "author": "pchiwan@gmail.com",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.2",
-    "swagger-ui-express": "^3.0.6"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "concurrently": "^3.5.1",
-    "nodemon": "^1.14.7"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  }
+	"name": "galaxy-explorer",
+	"version": "1.0.0",
+	"description": "A galaxy exploration API",
+	"main": "index.js",
+	"scripts": {
+		"build": "babel src -d lib",
+		"dev": "npm run build && concurrently 'npm run start' 'npm run build -- -w -s'",
+		"start": "PORT=4000 nodemon ./lib/index.js"
+	},
+	"author": "pchiwan@gmail.com",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.2",
+		"swagger-ui-express": "^3.0.6"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"concurrently": "^3.5.1",
+		"nodemon": "^1.14.7"
+	},
+	"babel": {
+		"presets": [ "env" ]
+	}
 }
