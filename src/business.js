@@ -1,67 +1,75 @@
-import db from './db';
+import db from './db'
 
-function getAllPlanets() {
-    return db.reduce((value, cluster) => [...value, ...getAllClusterPlanets(cluster)], []);
+function toLower (string) {
+  return string.toLowerCase()
 }
 
-function getAllClusterPlanets(cluster) {
-    return cluster.systems.reduce((value, system) => [...value, ...system.planets], []);
+function getAllPlanets () {
+  return db.reduce(
+    (value, cluster) => [...value, ...getAllClusterPlanets(cluster)],
+    []
+  )
 }
 
-function findCluster(clusterName) {
-    return db.find((cluster) => cluster.name === clusterName);
+function getAllClusterPlanets (cluster) {
+  return cluster.systems.reduce(
+    (value, system) => [...value, ...system.planets],
+    []
+  )
 }
 
-function traverseGalaxy(planetName, i = 0) {
-    if (i === db.length)
-        return null;
-
-    const system = traverseCluster(planetName, db[i]);
-    return system !== null
-        ? Object.assign({}, db[i], { systems: [system] })
-        : traverseGalaxy(planetName, ++i);
+function findCluster (clusterName) {
+  return db.find(cluster => toLower(cluster.name) === toLower(clusterName))
 }
 
-function traverseCluster(planetName, cluster, i = 0) {
-    if (i === cluster.nSystems())
-        return null;
+function traverseGalaxy (planetName, i = 0) {
+  if (i === db.length) return null
 
-    const planet = traverseSystem(planetName, cluster.systems[i]);
-    return planet !== null
-        ? Object.assign({}, cluster.systems[i], { planets: [planet] })
-        : traverseCluster(planetName, cluster, ++i);
+  const system = traverseCluster(planetName, db[i])
+  return system !== null
+    ? Object.assign({}, db[i], { systems: [system] })
+    : traverseGalaxy(planetName, ++i)
 }
 
-function traverseSystem(planetName, system, i = 0) {
-    if (i === system.nPlanets())
-        return null;
+function traverseCluster (planetName, cluster, i = 0) {
+  if (i === cluster.nSystems()) return null
 
-    return system.planets[i].name === planetName
-        ? system.planets[i]
-        : traverseSystem(planetName, system, ++i);
+  const planet = traverseSystem(planetName, cluster.systems[i])
+  return planet !== null
+    ? Object.assign({}, cluster.systems[i], { planets: [planet] })
+    : traverseCluster(planetName, cluster, ++i)
 }
 
-function flattenGalaxy(iteratorFn) {
-    return db.reduce((value, cluster) => [...value, ...iteratorFn(cluster)], []);
+function traverseSystem (planetName, system, i = 0) {
+  if (i === system.nPlanets()) return null
+
+  return toLower(system.planets[i].name) === toLower(planetName)
+    ? system.planets[i]
+    : traverseSystem(planetName, system, ++i)
 }
 
-export function getClusterSummary(clusterName) {
-    const cluster = findCluster(clusterName);
-    return cluster.systems.map((system) => ({
-        name: system.name,
-        stellarMass: system.stellarMass,
-        stellarClass: system.stellarClass,
-        planets: system.nPlanets()
-    }));
+function flattenGalaxy (iteratorFn) {
+  return db.reduce((value, cluster) => [...value, ...iteratorFn(cluster)], [])
 }
 
-export function locatePlanet(planetName) {
-    const cluster = traverseGalaxy(planetName);
-    return cluster !== null
-        ? `${cluster.name} -> ${cluster.systems[0].name} -> ${cluster.systems[0].planets[0].name}`
-        : 'Planet not found!';
+export function getClusterSummary (clusterName) {
+  const cluster = findCluster(clusterName)
+  return cluster.systems.map(system => ({
+    name: system.name,
+    stellarMass: system.stellarMass,
+    stellarClass: system.stellarClass,
+    planets: system.nPlanets()
+  }))
 }
 
-export function getGasGiants() {
-    return getAllPlanets().filter((planet) => planet.isGasGiant());
+export function locatePlanet (planetName) {
+  const cluster = traverseGalaxy(planetName)
+  return cluster !== null
+    ? `${cluster.name} -> ${cluster.systems[0].name} -> ${cluster.systems[0]
+        .planets[0].name}`
+    : 'Planet not found!'
+}
+
+export function getGasGiants () {
+  return getAllPlanets().filter(planet => planet.isGasGiant())
 }
