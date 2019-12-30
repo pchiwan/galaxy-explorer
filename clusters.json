@@ -47,6 +47,7 @@
       "name": "Hydra",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Canrum",
@@ -133,6 +134,7 @@
       "name": "Hercules",
       "stellarMass": "1.7 Sol Masses",
       "stellarClass": "F0",
+      "massRelay": true,
       "planets": [
       {
         "name": "Eletania",
@@ -212,6 +214,7 @@
       "name": "Utopia",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Arcadia",
@@ -291,6 +294,7 @@
       "name": "Han",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Farcrothu",
@@ -363,6 +367,7 @@
       "name": "Antaeus",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Ageko",
@@ -599,6 +604,7 @@
       "name": "Chandrasekhar",
       "stellarMass": "0.3 Sol Masses",
       "stellarClass": "M",
+      "massRelay": true,
       "planets": [
       {
         "name": "Hebat",
@@ -739,6 +745,7 @@
       "name": "Pax",
       "stellarMass": "0.788 Sol Masses",
       "stellarClass": "K0",
+      "massRelay": true,
       "planets": [
       {
         "name": "Morana",
@@ -852,6 +859,7 @@
       "name": "Newton",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Juncro",
@@ -890,6 +898,7 @@
       "name": "Sol",
       "stellarMass": "1 Sol Mass",
       "stellarClass": "G2V",
+      "massRelay": true,
       "planets": [
       {
         "name": "Earth",
@@ -1076,6 +1085,7 @@
       "name": "Refuge",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Agetoton",
@@ -1107,6 +1117,7 @@
       "name": "Hoc",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Cloroplon",
@@ -1193,6 +1204,7 @@
       "name": "Widow",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Citadel",
@@ -1210,6 +1222,7 @@
       "name": "Acheron",
       "stellarMass": "0.8 Sol Masses",
       "stellarClass": "K0",
+      "massRelay": true,
       "planets": [
       {
         "name": "Altahe",
@@ -1323,6 +1336,7 @@
       "name": "Columbia",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Clojiia",
@@ -1477,6 +1491,7 @@
       "name": "Parnitha",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Athame",
@@ -1665,6 +1680,7 @@
       "name": "Trebia",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Aventen",
@@ -1717,6 +1733,7 @@
       "name": "Aralakh",
       "stellarMass": "1.7 Sol Masses",
       "stellarClass": "F",
+      "massRelay": true,
       "planets": [
       {
         "name": "Durak",
@@ -1837,6 +1854,7 @@
       "name": "Pranas",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Saradril",
@@ -1882,6 +1900,7 @@
       "name": "Aquila",
       "stellarMass": "1.0 Sol Masses",
       "stellarClass": "G",
+      "massRelay": true,
       "planets": [
       {
         "name": "Lepini",
@@ -2056,6 +2075,7 @@
       "name": "Fortis",
       "stellarMass": "1.00 Sol Masses",
       "stellarClass": "G",
+      "massRelay": true,
       "planets": [
       {
         "name": "Vir",
@@ -2079,7 +2099,7 @@
         "radius": "7,437 km"
       }]
     }]
-  },  
+  },
   {
     "name": "Vallhallan Threshold",
     "systems": [
@@ -2141,6 +2161,7 @@
       "name": "Raheel-Leyya",
       "stellarMass": "N\/A",
       "stellarClass": "B / B",
+      "massRelay": true,
       "planets": []
     }]
   },
@@ -2172,6 +2193,7 @@
       "name": "Enoch",
       "stellarMass": "0.97 Sol Masses",
       "stellarClass": "G",
+      "massRelay": true,
       "planets": [
       {
         "name": "Laban",
@@ -2271,6 +2293,7 @@
       "name": "Knossos",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Phaistos",
@@ -2391,6 +2414,7 @@
       "name": "Iera",
       "stellarMass": "1.00 Sol Masses",
       "stellarClass": "G",
+      "massRelay": true,
       "planets": [
       {
         "name": "Venture",
@@ -2429,6 +2453,7 @@
       "name": "Bahak",
       "stellarMass": "0.99 Sol Masses",
       "stellarClass": "G",
+      "massRelay": true,
       "planets": [
       {
         "name": "Clogon",
@@ -2474,6 +2499,7 @@
       "name": "Haskins",
       "stellarMass": "1.7 Sol Masses",
       "stellarClass": "A",
+      "massRelay": true,
       "planets": [
       {
         "name": "Capek",
@@ -2491,6 +2517,7 @@
       "name": "Dholen",
       "stellarMass": "1.00 Sol Masses",
       "stellarClass": "M III",
+      "massRelay": true,
       "planets": [
       {
         "name": "Gotha",
@@ -2535,6 +2562,7 @@
       "name": "Tikkun",
       "stellarMass": "0.9 Sol Masses",
       "stellarClass": "K",
+      "massRelay": true,
       "planets": [
       {
         "name": "Rannoch",
@@ -2571,8 +2599,7 @@
         "temp": "N\/A",
         "radius": "17,918 km"
       }]
-    }
-    ]
+    }]
   },
   {
     "name": "Armstrong Nebula",
@@ -2581,31 +2608,223 @@
       "name": "Gagarin",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
-      "planets": []
+      "planets": [{
+        "name": "Junthor",
+        "dayLength": "56.7 Earth Hours",
+        "orbitalPeriod": "0.2 Earth Years",
+        "temp": "-49 \u00b0C",
+        "radius": "10,480 km"
+      }, {
+        "name": "Pressha",
+        "dayLength": "16.2 Earth Hours",
+        "orbitalPeriod": "0.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "38,482 km"
+      }, {
+        "name": "Rayingri",
+        "dayLength": "60.5 Earth Hours",
+        "temp": "46 \u00b0C",
+        "radius": "5,171 km"
+      }, {
+        "name": "Sogelrus",
+        "dayLength": "63.9 Earth Hours",
+        "orbitalPeriod": "1.8 Earth Years",
+        "temp": "-136 \u00b0C",
+        "radius": "4,327 km"
+      }, {
+        "name": "Antirumgon",
+        "dayLength": "32.1 Earth Hours",
+        "orbitalPeriod": "4.0 Earth Years",
+        "temp": "-178 \u00b0C",
+        "radius": "9,508 km"
+      }]
     },
     {
       "name": "Grissom",
       "stellarMass": ">20 Sol Masses",
       "stellarClass": "O",
-      "planets": []
+      "massRelay": true,
+      "planets": [{
+        "name": "Benda",
+        "dayLength": "41.2 Earth Hours",
+        "orbitalPeriod": "812.3 Earth Years",
+        "temp": "3,151 \u00b0C",
+        "radius": "6,788 km"
+      }, {
+        "name": "Zaherux",
+        "dayLength": "51.5 Earth Hours",
+        "orbitalPeriod": "266.8 Earth Years",
+        "temp": "959 \u00b0C",
+        "radius": "6,729 km"
+      }, {
+        "name": "Notanban",
+        "dayLength": "16.9 Earth Hours",
+        "orbitalPeriod": "990.5 Earth Years",
+        "temp": "N\/A",
+        "radius": "73,314 km"
+      }]
     },
     {
       "name": "Hong",
       "stellarMass": "N\/A",
       "stellarClass": "N\/A",
-      "planets": []
+      "planets": [{
+        "name": "Pomal",
+        "dayLength": "47.0 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "492 \u00b0C",
+        "radius": "9,616 km"
+      }, {
+        "name": "Casbin",
+        "dayLength": "44.6 Earth Hours",
+        "orbitalPeriod": "1.1 Earth Years",
+        "temp": "99 \u00b0C",
+        "radius": "7,819 km"
+      }, {
+        "name": "Matar",
+        "dayLength": "54.5 Earth Hours",
+        "orbitalPeriod": "29.8 Earth Years",
+        "temp": "-64 \u00b0C",
+        "radius": "4,599 km"
+      }, {
+        "name": "Theshaca",
+        "dayLength": "14.0 Earth Hours",
+        "orbitalPeriod": "84.4 Earth Years",
+        "temp": "N\/A",
+        "radius": "65,976 km"
+      }, {
+        "name": "Treagir",
+        "dayLength": "30.2 Earth Hours",
+        "orbitalPeriod": "238.8 Earth Years",
+        "temp": "-211 \u00b0C",
+        "radius": "1,402 km"
+      }]
     },
     {
       "name": "Tereshkova",
       "stellarMass": "N\/A",
       "stellarClass": "M V, M V",
-      "planets": []
+      "planets": [{
+        "name": "Hunsalra",
+        "dayLength": "18.6 Earth Hours",
+        "orbitalPeriod": "46.2 Earth Years",
+        "temp": "N\/A",
+        "radius": "11,496 km"
+      }, {
+        "name": "Mawinor",
+        "dayLength": "61.8 Earth Hours",
+        "orbitalPeriod": "662.7 Earth Years",
+        "temp": "-228 \u00b0C",
+        "radius": "1,170 km"
+      }, {
+        "name": "Patamalrus",
+        "dayLength": "47.1 Earth Hours",
+        "orbitalPeriod": "15.3 Earth Years",
+        "temp": "451 \u00b0C",
+        "radius": "5,831 km"
+      }, {
+        "name": "Solmarlon",
+        "dayLength": "14.4 Earth Hours",
+        "orbitalPeriod": "399.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "69,862 km"
+      }, {
+        "name": "Thegeuse",
+        "dayLength": "25.3 Earth Years",
+        "orbitalDistance": "0.3 AU",
+        "orbitalPeriod": "25.3 Earth Years",
+        "temp": "-141 \u00b0C",
+        "radius": "5,130 km"
+      }]
     },
     {
       "name": "Vamshi",
       "stellarMass": "N\/A",
       "stellarClass": "A4 V 1, M5 III 1",
-      "planets": []
+      "planets": [{
+        "name": "Maji",
+        "dayLength": "55.3 Earth Hours",
+        "orbitalPeriod": "5.9 Earth Years",
+        "temp": "-121 \u00b0C",
+        "radius": "5,727 km"
+      }, {
+        "name": "Pregel",
+        "dayLength": "49.8 Earth Hours",
+        "orbitalPeriod": "17.8 Earth Years",
+        "temp": "-131 \u00b0C",
+        "radius": "10,510 km"
+      }, {
+        "name": "Almos",
+        "dayLength": "67.1 Earth Hours",
+        "orbitalPeriod": "46.7 Earth Years",
+        "temp": "N\/A",
+        "radius": "60,948 km"
+      }]
+    }]
+  },
+  {
+    "name": "Ninmah Cluster",
+    "systems": [{
+      "name": "Maskim Xul",
+      "stellarMass": "0.298 Sol Masses",
+      "stellarClass": "M V",
+      "massRelay": true,
+      "planets": [{
+        "name": "Suen",
+        "dayLength": "0.2 Earth Years",
+        "orbitalDistance": "0.3 AU",
+        "orbitalPeriod": "0.3 Earth Years",
+        "temp": "40 \u00b0C",
+        "radius": "3,029 km"
+      }, {
+        "name": "Kashshaptu",
+        "dayLength": "52.5 Earth Hours",
+        "orbitalDistance": "2.2 AU",
+        "orbitalPeriod": "6 Earth Years",
+        "temp": "462 \u00b0C",
+        "radius": "1,258 km"
+      }, {
+        "name": "Damkianna",
+        "dayLength": "8.7 Earth Hours",
+        "orbitalDistance": "5.6 AU",
+        "orbitalPeriod": "24.2 Earth Years",
+        "temp": "N\/A",
+        "radius": "27,231 km"
+      }]
+    },
+    {
+      "name": "Mulla Xul",
+      "stellarMass": "0.769 Sol Masses",
+      "stellarClass": "K",
+      "planets": [{
+        "name": "Maldor",
+        "dayLength": "36 Earth Hours",
+        "orbitalDistance": "0.9 AU",
+        "orbitalPeriod": "1 Earth Years",
+        "temp": "361 \u00b0C",
+        "radius": "8,356 km"
+      }, {
+        "name": "Utukku",
+        "dayLength": "64.2 Earth Hours",
+        "orbitalDistance": "1.7 AU",
+        "orbitalPeriod": "2.5 Earth Years",
+        "temp": "10 \u00b0C",
+        "radius": "6,865 km"
+      }, {
+        "name": "Inakhos",
+        "dayLength": "40 Earth Hours",
+        "orbitalDistance": "3.3 AU",
+        "orbitalPeriod": "6.7 Earth Years",
+        "temp": "-131 \u00b0C",
+        "radius": "553 km"
+      }, {
+        "name": "Keph",
+        "dayLength": "17.6 Earth Hours",
+        "orbitalDistance": "5.8 AU",
+        "orbitalPeriod": "15.7 Earth Years",
+        "temp": "-93 \u00b0C",
+        "radius": "70,912 km"
+      }]
     }]
   },
   {
@@ -2613,13 +2832,9 @@
     "systems": []
   },
   {
-    "name": "Ninmah Cluster",
-    "systems": []
-  },
-  {
     "name": "Nubian Expanse",
     "systems": []
-  },  
+  },
   {
     "name": "Petra Nebula",
     "systems": []
